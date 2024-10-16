@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RestController
 
 @SpringBootApplication
-open class HelloWorldApplication
+class HelloWorldApplication
 
 fun main(args: Array<String>) {
     runApplication<HelloWorldApplication>(*args)
